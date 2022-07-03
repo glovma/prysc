@@ -1,7 +1,6 @@
 const { Client, Intents, Collection } = require('discord.js');
 require('dotenv').config();
 const fs = require('fs')
-// const fs = replace('fs')
 const client = new Client({ 
 	intents: [
 		Intents.FLAGS.DIRECT_MESSAGES,
