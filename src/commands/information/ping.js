@@ -29,4 +29,5 @@ module.exports = {
     pong.edit({
       embeds: [ponger]
     })
+  }
 }
