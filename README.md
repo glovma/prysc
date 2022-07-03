@@ -7,7 +7,7 @@ prysc (prih-sk) is a general purpose, open-source, Discord moderation bot for th
 # Dependencies:
 | `Dependencies` | `Descriptions` | `Documentations/Downloads`|
 | ------ | ------ | ------ |
-| Discord.js | API Wrapper for JavaScript to create Discord bots. | [Documentation](https://discord.js.org/#/ "Discord.js Documentation") [Guide](https://discordjs.guide/#before-you-begin "Discord.js Guide") |
+| Discord.js | API Wrapper for JavaScript to create Discord bots. | [Documentation](https://discord.js.org/#/ "Discord.js Documentation"), [Guide](https://discordjs.guide/#before-you-begin "Discord.js Guide") |
 | FS | Allows for access and interaction with file systems. | [Documentaion](https://nodejs.dev/learn/the-nodejs-fs-module "FS Module Documentaion") |
 | Nodemon | Monitors for saved changes in the source code and automatically restarts the program. | [Documentation](https://nodemon.io/ "Nodemon Documentation") | 
 
