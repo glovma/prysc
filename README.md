@@ -7,7 +7,7 @@ Prysc is a general purpose, open-source, Discord moderation bot for the [CreaCon
 # Dependancies:
 | `Dependancies` | `Documentations/Downloads`|
 | ------ | ------ | 
-#
+
 # Changelog:
 | `Version` | `Changes` | 
 | ------ | ------ | 
