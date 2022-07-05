@@ -1,23 +1,17 @@
-const { SlashCommandBuilder  } = require('@discordjs/builders');
 const { MessageEmbed, Client } = require('discord.js');
 
 /**
  * @param {Client} client
  */
 
-module.exports = {
-  data: new SlashCommandBuilder()
-    .setName('ping')
-    .setDescription("Replies with the bot's latency."),
-  async execute(client, interaction) {
-    
+module.exports.run = async (client, message, args) => {
     const ping = Math.round(client.ws.ping);
     const pinger = new MessageEmbed()
                        .setTitle('Pong!')
                        .setDescription('Pinging...')
                        .setColor('BLURPLE')
-    
-    const pong = await interaction.reply({
+
+    const pong = await message.reply({
                        embeds: [pinger]
     })
 
@@ -29,5 +23,9 @@ module.exports = {
     pong.edit({
       embeds: [ponger]
     })
-  }
-}
+};
+
+module.exports.config = {
+  name: 'ping',
+  aliases: ['latency'], //You can put aliases here, eg: aliases: ['tst', 't']
+};
